@@ -1,0 +1,8 @@
+category: Perl
+requires: perl
+sdesc: "Perl date parsing module"
+ldesc: "The date parser contained in this distribution is far superior 
+to the yacc based parser, and a *lot* faster. The parser contained here 
+will only parse absolute dates, if you want a date parser that can parse 
+relative dates then take a look at the Time modules by David Muir on 
+CPAN."
