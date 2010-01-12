@@ -7,12 +7,11 @@ relative dates then take a look at the Time modules by David Muir on
 CPAN.
 
 Runtime requirements:
-  perl-5.10.0-3
+  perl-5.10.1-2
 
 Build requirements:
-(besides corresponding -devel packages)
-  cygport-0.3.9-1
-  make-3.81-1
+  cygport-0.9.80-1
+  make-3.81-2
 
 Canonical website:
   http://search.cpan.org/dist/TimeDate/
@@ -23,60 +22,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-TimeDate-1.16-X-src.tar.bz2
+  unpack perl-TimeDate-1.20-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-TimeDate-1.16-X.cygport all
+  cygport ./perl-TimeDate-1.20-X.cygport all
 
 This will create:
-  /usr/src/perl-TimeDate-1.16-X-src.tar.bz2
-  /usr/src/perl-TimeDate-1.16-X.tar.bz2
+  /usr/src/perl-TimeDate-1.20-X-src.tar.bz2
+  /usr/src/perl-TimeDate-1.20-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/perl5/vendor_perl/5.10/Date/Format.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Afar.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Amharic.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Austrian.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Brazilian.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Chinese_GB.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Czech.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Danish.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Dutch.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/English.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Finnish.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/French.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Gedeo.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/German.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Greek.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Italian.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Norwegian.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Oromo.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Sidama.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Somali.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Swedish.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/Tigrinya.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/TigrinyaEritrean.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Language/TigrinyaEthiopian.pm
-  /usr/lib/perl5/vendor_perl/5.10/Date/Parse.pm
-  /usr/lib/perl5/vendor_perl/5.10/Time/Zone.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/TimeDate/.packlist
-  /usr/share/doc/perl-TimeDate-1.16/ChangeLog
-  /usr/share/doc/perl-TimeDate-1.16/README
-  /usr/share/man/man3/Date.Format.3pm.gz
-  /usr/share/man/man3/Date.Parse.3pm.gz
-  /usr/share/man/man3/Time.Zone.3pm.gz
-
-------------------
-
 Port Notes:
 
------ version 1.16-1 -----
-Initial release for Cygwin.
+----- version 1.20-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
