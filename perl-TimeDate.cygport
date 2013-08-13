@@ -1,0 +1,12 @@
+CPAN_AUTHOR=gbarr
+inherit perl
+
+NAME="perl-TimeDate"
+VERSION=2.30
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl date parsing module"
+DESCRIPTION="The date parser contained in this distribution is far superior to
+the yacc based parser, and a *lot* faster. The parser contained here will only
+parse absolute dates, if you want a date parser that can parse relative dates
+then take a look at the Time modules by David Muir on CPAN."
